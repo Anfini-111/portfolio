@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>play a lot of music</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="img/img_favicon.png">
+</head>
+
+<body>
+  <header>
+    <h1>CD introduction</h1>
+    <img id="titleImgM" src="img/img_title_gakki.png">
+    <img id="titleImgS" src="img/img_title_gakki_s.png">
+  </header>
+
+  <mein>
+    
+    <!-- サイト説明 -->
+    <section class="explanation">
+
+      <div class="explanation_container">      
+        <h2>About this site</h2>
+        <div class="explanation_contents">
+          <p>当サイトは管理人がポートフォリオとして作成したサンプルサイトです。
+            <br>掲載している内容は全て実際の団体、人物、商品とは関係ありません。
+            <br>イメージとして使用している画像は各素材サイト様の規約に従い利用しています。
+            <br>当サイトからの画像取得は全て禁止となります。
+            <br>画像の利用については下記素材サイト様公式サイトにてお願いいたします。
+            <br><br>【写真AC:
+            <a href="https://www.photo-ac.com/">https://www.photo-ac.com/</a>
+            】
+          </p>
+          <p style="text-align: right">管理人</p>
+        </div>
+        <!-- 表示スペース伸縮用ボタン -->
+        <button class="button_more"></button>
+      </div>
+    </section>
+    
+    <!-- CD 画像 -->
+    <section class="container">
+      <nav>
+        <ul>
+          <div class="position_right">
+            <li><a href="#" data-id="menu_classic">Classic</a></li>
+            <li><a href="#" data-id="menu_jazz">Jazz</a></li>
+            <li><a href="#" data-id="menu_other">Other</a></li>
+          </div>
+        </ul>
+      </nav>
+
+      <div class="content active" id="menu_classic">
+        <h2>Classic Music CD</h2>
+        <ul>
+          <li>
+            <h3>Piano Music</h3>
+            <img src="img/img_cla1.jpg">
+            <div class="music_list">
+              <ol>
+                <li>子犬のワルツ</li>
+                <li>ラ・カンパネラ</li>
+                <li>月光</li>
+              </ol>
+            </div>
+          </li>
+          <li>
+            <h3>Horn Music</h3>
+            <img src="img/img_cla2.jpg">
+            <div class="music_list">
+              <ol>
+                <li>夢のあとに</li>
+                <li>ホルン協奏曲第２番</li>
+                <li>G 線上のアリア</li>
+              </ol>
+            </div>
+          </li>
+          <li>          
+            <h3>Violin Music</h3>
+            <img src="img/img_cla3.jpg">
+            <div class="music_list">
+              <ol>
+                <li>四季</li>
+                <li>アンダンテ・カンタービレ</li>
+                <li>シチリアーナ</li>
+              </ol>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <div class="content" id="menu_jazz">
+        <h2>Jazz Music CD</h2>
+        <ul>
+          <li>
+            <h3>Trumpet Music</h3>
+            <img src="img/img_jazz1.jpg">
+            <div class="music_list">
+              <ol>
+                <li>イン・ザ・ムード</li>
+                <li>スターダスト</li>
+                <li>キャラバン</li>
+              </ol>
+            </div>
+          </li>
+          <li>
+            <h3>Guitar Music</h3>
+            <img src="img/img_jazz2.jpg">
+            <div class="music_list">
+              <ol>
+                <li>NOW'S THE TIME</li>
+                <li>Fly Me To The Moon</li>
+                <li>The Poll Winners</li>
+              </ol>
+            </div>
+          </li>
+          <li>          
+            <h3>Jazz Piano Music</h3>
+            <img src="img/img_jazz3.jpg">
+            <div class="music_list">
+              <ol>
+                <li>ワルツ・フォー・デビイ</li>
+                <li>枯葉</li>
+                <li>Over The Rainbow</li>
+              </ol>
+            </div>
+          </li>        
+          <li>          
+            <h3>Saxophone Music</h3>
+            <img src="img/img_jazz4.jpg">
+            <div class="music_list">
+              <ol>
+                <li>December Detour</li>
+                <li>SatureDay Action</li>
+                <li>Alone flower</li>
+              </ol>
+            </div>
+          </li>        
+        </ul>
+      </div>
+    
+      <div class="content" id="menu_other">
+        <h2>Other Music CD</h2>
+        <ul>
+          <li>
+            <h3>CafeBGM</h3>
+            <img src="img/img_oth1.jpg">
+            <div class="music_list">
+              <ol>
+                <li>Blue</li>
+                <li>Over the rainbow</li>
+                <li>Just The Way you Are</li>
+              </ol>
+            </div>
+          </li>
+          <li>
+            <h3>DrivingBGM</h3>
+            <img src="img/img_oth2.jpg">
+            <div class="music_list">
+              <ol>
+                <li>Greatest Journey</li>
+                <li>Where You Are</li>
+                <li>Stand Out Fit In</li>
+                <li>ワタリドリ</li>
+              </ol>
+            </div>
+          </li>  
+        </ul>
+      </div>
+    </section>
+    
+    <!-- イベント画像 -->
+    <section class="infomation">
+      <h2>Event Information</h2>
+
+      <div class="event_container">
+        <div class="event_contents">
+          <ul>
+            <li><img src="img/img_event1.jpg" class="event"></li>
+            <li><img src="img/img_event2.jpg" class="event"></li>
+            <li><img src="img/img_event3.jpg" class="event"></li>
+            <li><img src="img/img_event4.jpg" class="event"></li>
+            <li><img src="img/img_event5.jpg" class="event"></li>
+            <li><img src="img/img_event6.jpg" class="event"></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- ボタンjavascript作成 -->
+      <div class="event_nav">
+        <div class="dots_container"><!-- button --></div>
+      </div>
+    </section>
+  
+    <!-- 最新情報 -->
+    <section class="notice">
+      <div class="title_space"><h2>What's New</h2></div>
+      <!-- テーブルjavascript作成 -->
+      <div class="table_space scroll_hidden"><!-- table --></div>
+    </section>
+
+  </mein>
+
+  <footer>
+    <small>(c) portfolio </small>
+  </footer>
+    
+  <script src="js/main.js"></script>
+</body>
+</html>
