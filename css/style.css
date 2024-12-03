@@ -535,7 +535,7 @@ footer small {
   }
 
   .position_right {
-    text-align: center;
+    margin: auto;
   }
 
   .content ul {
@@ -567,7 +567,6 @@ footer small {
   }
 
   .content {
-    border-top-right-radius: 10% 5%;
     border-bottom-left-radius: 50% 25%;
   }
   
