@@ -471,8 +471,8 @@ footer {
   text-align: center;
   margin: 0 auto 16px auto;
   font-size: 24px;
-  /* border-bottom-left-radius: 270px 15px;
-  border-bottom-right-radius: 30px 15px; */
+  border-bottom-left-radius: 270px 15px;
+  border-bottom-right-radius: 30px 15px;
 }
 
 footer small {
