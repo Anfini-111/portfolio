@@ -534,10 +534,6 @@ footer small {
     display: none;
   }
 
-  .position_right {
-    margin: auto;
-  }
-
   .content ul {
     gap: 0;
   }
