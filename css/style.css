@@ -471,7 +471,7 @@ footer {
   text-align: center;
   margin: 0 auto 16px auto;
   font-size: 24px;
-  border-bottom-left-radius: 270px 10px;
+  border-bottom-left-radius: 270px 15px;
   border-bottom-right-radius: 30px 15px;
 }
 
@@ -533,6 +533,10 @@ footer small {
     display: none;
   }
 
+  .position_right {
+    text-align: center;
+  }
+
   .content ul {
     gap: 0;
   }
@@ -561,9 +565,8 @@ footer small {
     display: none;
   }
 
-  /* ---------- 角の装飾 ---------- */
   .content {
-    /*border-top-right-radius: 10% 5%;*/
+    border-top-right-radius: 10% 5%;
     border-bottom-left-radius: 50% 25%;
   }
   
