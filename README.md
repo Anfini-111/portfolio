@@ -5,7 +5,7 @@
 
 ## 概要
 
-- HTML、CSS、JavaScriptの練習として作成したもの
+- HTML、CSS、JavaScriptの練習として作成したものです
 - 使用している画像はフリー素材
 
 ## 作成環境
