@@ -563,7 +563,7 @@ footer small {
 
   /* ---------- 角の装飾 ---------- */
   .content {
-    /*border-top-right-radius: 10% 5%;*/
+    border-top-right-radius: 10% 5%;
     border-bottom-left-radius: 50% 25%;
   }
   
